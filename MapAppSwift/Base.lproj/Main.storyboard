@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -36,7 +40,7 @@
                                         </segmentedControl>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="wws-Uy-E8w"/>
-                                    <barButtonItem title="Locate Me" id="4Zf-n0-gtb">
+                                    <barButtonItem title="現在地" id="4Zf-n0-gtb">
                                         <connections>
                                             <action selector="locateMe:" destination="BYZ-38-t0r" id="euz-IF-zRD"/>
                                         </connections>
@@ -49,7 +53,7 @@
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9l0-yG-EkX">
                                 <rect key="frame" x="-4" y="28" width="383" height="44"/>
                                 <items>
-                                    <navigationItem title="Mapp App" id="z5u-T5-3yi">
+                                    <navigationItem title="Map App" id="z5u-T5-3yi">
                                         <barButtonItem key="rightBarButtonItem" title="Directions" id="Wlw-QZ-VxF">
                                             <connections>
                                                 <action selector="directions:" destination="BYZ-38-t0r" id="57T-A7-605"/>
@@ -59,7 +63,7 @@
                                 </items>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="9l0-yG-EkX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="4tz-dQ-9sd"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VG0-5k-tAJ" secondAttribute="bottom" id="9tO-IU-nRC"/>
@@ -74,7 +78,6 @@
                             <constraint firstItem="VG0-5k-tAJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="wL5-g6-4dg"/>
                         </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="mapView" destination="X3Y-be-xD3" id="bvF-i5-esr"/>
                         <outlet property="segmentControl" destination="ltK-gT-xmg" id="1gy-IA-mCj"/>

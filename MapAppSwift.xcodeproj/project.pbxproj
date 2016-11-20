@@ -204,7 +204,8 @@
 				TargetAttributes = {
 					A83BF6831C403AF4007829B3 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = EUAKYK4NXS;
+						DevelopmentTeam = G76E985X3G;
+						LastSwiftMigration = 0810;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
 								enabled = 1;
@@ -214,11 +215,13 @@
 					A83BF69A1C403AF4007829B3 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = EUAKYK4NXS;
+						LastSwiftMigration = 0810;
 						TestTargetID = A83BF6831C403AF4007829B3;
 					};
 					A83BF6A51C403AF5007829B3 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = EUAKYK4NXS;
+						LastSwiftMigration = 0810;
 						TestTargetID = A83BF6831C403AF4007829B3;
 					};
 				};
@@ -417,10 +420,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G76E985X3G;
 				INFOPLIST_FILE = MapAppSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mattdeuschle.MapAppSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BETA-yamato.NaviApp2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -428,10 +433,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G76E985X3G;
 				INFOPLIST_FILE = MapAppSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mattdeuschle.MapAppSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BETA-yamato.NaviApp2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -443,6 +450,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mattdeuschle.MapAppSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapAppSwift.app/MapAppSwift";
 			};
 			name = Debug;
@@ -455,6 +463,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mattdeuschle.MapAppSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapAppSwift.app/MapAppSwift";
 			};
 			name = Release;
@@ -466,6 +475,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mattdeuschle.MapAppSwiftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = MapAppSwift;
 				USES_XCTRUNNER = YES;
 			};
@@ -478,6 +488,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mattdeuschle.MapAppSwiftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = MapAppSwift;
 				USES_XCTRUNNER = YES;
 			};
@@ -502,6 +513,7 @@
 				A83BF6B11C403AF5007829B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A83BF6B21C403AF5007829B3 /* Build configuration list for PBXNativeTarget "MapAppSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +522,7 @@
 				A83BF6B41C403AF5007829B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A83BF6B51C403AF5007829B3 /* Build configuration list for PBXNativeTarget "MapAppSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +531,7 @@
 				A83BF6B71C403AF5007829B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
